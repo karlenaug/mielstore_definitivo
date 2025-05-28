@@ -14,5 +14,6 @@
   </footer>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
 <section>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/letteranimation.min.js"></script>  
   </body>
 </html>
