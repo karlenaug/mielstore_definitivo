@@ -27,3 +27,33 @@ max-height: 600px;
         margin-left: 10px;
         padding-top: 10px;
     }
+.redes {
+    color: #fcd6a4; 
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+    @media (min-width: 490px) and (max-width: 779px) {
+        .container-redeslogo{
+        width: 50%;
+        height: 20%;
+        background-color: rgb(255, 166, 0);
+        margin-left: 10px;
+        padding-top: 10px;
+        font-size: 1em;
+    }   
+  }
+  @media (max-width: 489px) {
+        .container-redeslogo{
+        width: 80%;
+        margin: 0 auto;
+        font-size: 0.5rem;
+        text-align: center;
+    }
+    .redes-color-text {
+    text-align: center;
+}
+.redes1 {
+    text-align: center;
+}
+}

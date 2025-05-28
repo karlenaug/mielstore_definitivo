@@ -1,6 +1,6 @@
  <body class="cfondo">
       <!--Titulo-->
-      <h1 class="titulo centrado">Miel Store</h1>
+      <h1 class="titulo centrado ">Miel Store</h1>
       <h2 class="titulo centrado">El sabor de la naturaleza</h2>
       <!--carrusel-->
       <div class="carrusel" id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
