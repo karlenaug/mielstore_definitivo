@@ -1,0 +1,29 @@
+.redes-color-text {
+    color: rgb(206, 134, 1);
+    margin-left: 25px;
+}
+.container-redeslogo{
+        width: 80%;
+        height: 20%;
+        background-color: rgb(255, 166, 0);
+        margin-left: 10px;
+        padding-top: 10px;
+    }
+.color-logo-text {
+    color: white;
+}
+.conteiner-img-contacto {
+width: 100vw;
+max-height: 700px;
+}
+.conteiner-img-nosotros {
+width: 100vw;
+max-height: 600px;
+}
+.container-nosotros-titulos{
+        width: 80%;
+        height: 20%;
+        background-color: rgb(255, 166, 0);
+        margin-left: 10px;
+        padding-top: 10px;
+    }
