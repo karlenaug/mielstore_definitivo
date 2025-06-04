@@ -15,5 +15,11 @@
     <script src="assets/js/bootstrap.bundle.min.js"></script>
 <section>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/letteranimation.min.js"></script>  
+<script type="text/javascript" src="assets/js/scrolly.js"></script>
+    <script>
+       window.onload = function() {
+          scrolly();
+       }; 
+    </script>
   </body>
 </html>
