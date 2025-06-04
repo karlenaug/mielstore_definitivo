@@ -3,7 +3,7 @@
       <h1 class="titulo centrado cssanimation leFadeIn sequence" data-scrolly-down="leFadeIn">Miel Store</h1>
       <h2 class="titulo centrado cssanimation leFadeIn sequence" data-scrolly-down="leFadeIn">El sabor de la naturaleza</h2>
       <!--carrusel-->
-      <div class="carrusel" id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000" data-scrolly-down="leFadeIn">
+      <div class="carrusel" id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
         <div class="carousel-inner">
           <div class="carousel-item active opacidad">
             <img src="assets/img/bees-4126065_1920.jpg" class="d-block w-100" alt="...">

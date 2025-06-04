@@ -1,5 +1,5 @@
 <body class="cfondo">
-  <img class="conteiner-img-nosotros" data-scrolly-down="leFadeIn" src="assets/img/nosotros fabrica.jpg" alt="">    
+  <img class="conteiner-img-nosotros" src="assets/img/nosotros fabrica.jpg" alt="">    
     <!-- Sección: Nuestra Historia -->
   <section id="nuestra-historia" class="container bloques-distancia">
     <h2 class="fw-bold container-nosotros-titulos rounded-4" data-scrolly-down="leFadeIn">Un viaje dulce y natural</h2>
