@@ -1,3 +1,4 @@
+<body class="cfondo">
 <h1 class="titulo centrado">Registrarse</h1>
 <!--formulario de registro!-->
 <section class="container">
@@ -12,7 +13,7 @@
     </div>
     <div class="col-md-6">
       <label for="validationServer02" class="form-label">Last name</label>
-      <input type="text" class="form-control input-group has-validation " id="validationServer02" value="Otto" required="required">
+      <input type="text" class="form-control input-group has-validation" id="validationServer02" value="Otto" required="required">
       <div class="valid-feedback">
         Looks good!
       </div>
