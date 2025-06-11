@@ -2,18 +2,18 @@
 <h1 class="titulo centrado">Registrarse</h1>
 <!--formulario de registro!-->
 <section class="container">
-<form class="g-3 needs-validation was-validated container" style="min-height: 500px;">
+<form class="g-3 needs-validation was-validated container" style="min-height: 500px;" action="datosregistro.php" method="POST">
   <div class="row mt-3">
     <div class="col-md-6">
-      <label for="validationServer01" class="form-label">Nombre Completo</label>
-      <input type="text" class="form-control input-group has-validation " id="validationServer01" value="" required="required">
+      <label for="nombre" class="form-label">Nombre Completo</label>
+      <input type="text" class="form-control input-group has-validation " id="nombre" name=nombre value="" required="required">
       <div class="valid-feedback">
         Looks good!
       </div>
     </div>
     <div class="col-md-6">
-      <label for="validationServer02" class="form-label">Apellido</label>
-      <input type="text" class="form-control input-group has-validation" id="validationServer02" value="" required="required">
+      <label for="apellido" class="form-label">Apellido</label>
+      <input type="text" class="form-control input-group has-validation" id="apellido" name=apellido value="" required="required">
       <div class="valid-feedback">
         Looks good!
       </div>
@@ -22,19 +22,19 @@
 
   <div class="row mt-3">
       <div class="col-md-6">
-        <label for="validationServerUsername" class="form-label">Correo Electrónico</label>
+        <label for="email" class="form-label">Correo Electrónico</label>
         <div class="input-group has-validation">
           <span class="input-group-text" id="inputGroupPrepend3">@</span>
-          <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required="required">
+          <input type="text" class="form-control is-invalid" id="email" name="email" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required="required">
           <div class="valid-feedback">
           Looks good!
          </div>
        </div>
       </div>
       <div class="col-md-6">
-        <label for="validationServerUsername" class="form-label">Contraseña</label>
+        <label for="contraseña" class="form-label">Contraseña</label>
         <div class="input-group has-validation">
-          <input type="password" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required="required">
+          <input type="password" class="form-control is-invalid" id="contraseña" name=contraseña aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required="required">
           <div class="valid-feedback">
           Looks good!
         </div>
@@ -42,16 +42,16 @@
   </div>
  <div class="row">
     <div class="col-md-6">
-        <label for="validationServerUsername" class="form-label">Repetir contraseña</label>
+        <label for="confirmar-contraseña" class="form-label">Repetir contraseña</label>
         <div class="input-group has-validation">
-          <input type="password" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required="required">
+          <input type="password" class="form-control is-invalid" id="confirmar-contraseña" name=confirmar-contraseña aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required="required">
           <div class="valid-feedback">
            Looks good!
           </div>
        </div>
     </div>  
    <div class="col-12 mt-4">
-          <button class="btn btn-warning" type="submit">Registrarse</button>
+          <button class="btn btn-warning" type="submit" name="guardar" >Registrarse</button>
     </div>
  </div>  
 </form></section>

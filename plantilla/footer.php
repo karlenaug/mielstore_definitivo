@@ -20,6 +20,14 @@
        window.onload = function() {
           scrolly();
        }; 
-    </script>
+    </script>    
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.22.0/dist/sweetalert2.all.min.js"></script>
+   <script>
+    Swal.fire({
+      title: "Drag me!",
+  icon: "success",
+  draggable: true
+});
+   </script> 
   </body>
 </html>
