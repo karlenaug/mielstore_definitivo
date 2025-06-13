@@ -24,7 +24,7 @@
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.22.0/dist/sweetalert2.all.min.js"></script>
    <script>
     Swal.fire({
-      title: "Drag me!",
+      title: "Se registró con exito!",
   icon: "success",
   draggable: true
 });
