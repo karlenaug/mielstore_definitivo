@@ -1,4 +1,14 @@
 <body class="cfondo">
+<?php
+session_start();
+
+if (isset($_SESSION['usuario_registrado'])) {
+   
+  $mensaje = $_SESSION['usuario_registrado'];
+    unset($_SESSION['usuario_registrado']); //se borra aumaticamente luesgo de mostrar
+}
+?>
+
 <h1 class="titulo centrado">Registrarse</h1>
 <!--formulario de registro!-->
 <section class="container">

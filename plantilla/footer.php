@@ -22,12 +22,17 @@
        }; 
     </script>    
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.22.0/dist/sweetalert2.all.min.js"></script>
-   <script>
-    Swal.fire({
-      title: "Se registró con exito!",
-  icon: "success",
-  draggable: true
-});
+<script>
+ var mensaje_1 = "<?php echo $mensaje; ?>"
+  if (mensaje_1) {
+     Swal.fire({
+      title: "Se registró con éxito!",
+      icon: "success",
+      draggable: true,
+      timer: 4000});
+  }
+   
+
    </script> 
   </body>
 </html>

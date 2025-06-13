@@ -1,5 +1,5 @@
 <?php
-if (isset($_POST['guardar'])) {
+if (isset($_POST['guardar'])) { 
 //CAPTURA DE DATOS    
 $nombre = $_POST ['nombre'];
 $apellido = $_POST['apellido'];
@@ -12,4 +12,10 @@ echo $apellido; echo "<br>";
 echo $email; echo "<br>";
 echo $contraseña; echo "<br>";
 echo $confirmar_contraseña; echo "<br>";
+
+session_start();
+$_SESSION ['usuario_registrado']="OK";
+   header("Location: register.php");
+   exit;
+
 }
